@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1681653962 source:d:\work zone\acadmic\ecee\fourth year\second term\projects\eda\1st project\ref_model\atm\atm_class.cpp
+	"ATM.h"
+	<string>
+	<dos.h>
+
+1681650667 d:\work zone\acadmic\ecee\fourth year\second term\projects\eda\1st project\ref_model\atm\atm.h
+	<iostream>
+	<string>
+	<fstream>
+	<bits/stdc++.h>
+	<sstream>
+	<windows.h>
+
+1681482509 source:d:\work zone\acadmic\ecee\fourth year\second term\projects\eda\1st project\ref_model\atm\main.cpp
+	<iostream>
+	"ATM.h"
+
+1681737982 source:e:\4th_year_2nd_term\eda\proj1\sv\ref_model\atm_ref_new\atm\atm_class.cpp
+	"ATM.h"
+	<string>
+	<dos.h>
+
+1681650667 e:\4th_year_2nd_term\eda\proj1\sv\ref_model\atm_ref_new\atm\atm.h
+	<iostream>
+	<string>
+	<fstream>
+	<bits/stdc++.h>
+	<sstream>
+	<windows.h>
+
+1681482509 source:e:\4th_year_2nd_term\eda\proj1\sv\ref_model\atm_ref_new\atm\main.cpp
+	<iostream>
+	"ATM.h"
+
