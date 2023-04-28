@@ -1,0 +1,629 @@
+# Coverage Report by instance with details
+# 
+# =================================================================================
+# === Instance: /atm_tb
+# === Design Unit: work.atm_tb
+# =================================================================================
+# 
+# Assertion Coverage:
+#     Assertions                      18        18         0   100.00%
+# --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Name                 Assertion   Design     Design     Lang File(Line)                Enable    Failure      Pass  FPSA   Failure Pass    Failure EOS  Formal       Formal
+#                      Type        Unit       UnitType                                            Count        Count Action Log     Log     Limit   Note Status       Radius
+# --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# /atm_tb/assert__Ref_password
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(162)           on            0          1 CCCC   -       -     unlimited off                     
+# /atm_tb/assert__ATM_capacity_1
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(157)           on            0          1 CCCC   -       -     unlimited off                     
+# /atm_tb/assert__ATM_capacity
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(152)           on            0          1 CCCC   -       -     unlimited off                     
+# /atm_tb/assert__final_credit_2
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(147)           on            0          1 CCCC   -       -     unlimited off                     
+# /atm_tb/assert__Final_Up_limit_1
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(142)           on            0          1 CCCC   -       -     unlimited off                     
+# /atm_tb/assert__Final_Up_limit
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(137)           on            0          1 CCCC   -       -     unlimited off                     
+# /atm_tb/assert__final_credit_1
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(132)           on            0          1 CCCC   -       -     unlimited off                     
+# /atm_tb/assert__final_credit
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(127)           on            0          1 CCCC   -       -     unlimited off                     
+# /atm_tb/assert__Abort_signal_in_WITHDRAWAL
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(111)           on            0          1 CCCC   -       -     unlimited off                     
+# /atm_tb/assert__Balance_service_transition
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(73)            on            0          1 CCCC   -       -     unlimited off                     
+# /atm_tb/assert__WITHDRAWAL_transition_2
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(68)            on            0          1 CCCC   -       -     unlimited off                     
+# /atm_tb/assert__OPERATION_CHOICE_transition_5
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(51)            on            0          1 CCCC   -       -     unlimited off                     
+# /atm_tb/assert__OPERATION_CHOICE_transition_4
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(46)            on            0          1 CCCC   -       -     unlimited off                     
+# /atm_tb/assert__OPERATION_CHOICE_transition_3
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(41)            on            0          1 CCCC   -       -     unlimited off                     
+# /atm_tb/assert__checkcard_transition_2
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(25)            on            0          1 CCCC   -       -     unlimited off                     
+# /atm_tb/assert__checkcard_transition_1
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(20)            on            0          1 CCCC   -       -     unlimited off                     
+# /atm_tb/assert__IDLE_Transition_2
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(15)            on            0          1 CCCC   -       -     unlimited off                     
+# /atm_tb/assert__IDLE_Transition_1
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(10)            on            0          1 CCCC   -       -     unlimited off                     
+# 
+# =================================================================================
+# === Instance: /uvm_pkg
+# === Design Unit: /usr/share/questa/questasim//uvm-1.2.uvm_pkg
+# =================================================================================
+# 
+# Assertion Coverage:
+#     Assertions                       1         1         0   100.00%
+# --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Name                 Assertion   Design     Design     Lang File(Line)                Enable    Failure      Pass     Vacuous    Disable    Attempt     Active Peak Active ATV FPSA   Failure Pass    Failure EOS  Formal       Formal
+#                      Type        Unit       UnitType                                            Count        Count    Count      Count      Count       Count  Count           Action Log     Log     Limit   Note Status       Radius
+# --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# /uvm_pkg/uvm_component_name_check_visitor/visit/immed__262
+#                      Immediate   uvm_pkg    Verilog    SVA  /usr/share/questa/questasim/linux_x86_64/../verilog_src/uvm-1.2/src/base/uvm_traversal.svh(262)
+#                                                                                         on            0         34          0          0         34          0           0 off CCCC   -       off   unlimited off                     
+# 
+# =================================================================================
+# === Instance: /uvm_pack
+# === Design Unit: work.uvm_pack
+# =================================================================================
+# 
+# Covergroup Coverage:
+#     Covergroups                      5        na        na    53.88%
+#         Coverpoints/Crosses         13        na        na        na
+#             Covergroup Bins        130        56        74    43.07%
+# ----------------------------------------------------------------------------------------------------------
+# Covergroup                                             Metric       Goal       Bins    Status               
+#                                                                                                          
+# ----------------------------------------------------------------------------------------------------------
+#  TYPE /uvm_pack/subscriber/statess                    100.00%        100          -    Covered              
+#     covered/total bins:                                    18         18          -                      
+#     missing/total bins:                                     0         18          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_cuurent_state                    100.00%        100          -    Covered              
+#         covered/total bins:                                 9          9          -                      
+#         missing/total bins:                                 0          9          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin st_0                                          481          1          -    Covered              
+#         bin st_1                                          180          1          -    Covered              
+#         bin st_2                                          110          1          -    Covered              
+#         bin st_3                                          260          1          -    Covered              
+#         bin st_4                                           90          1          -    Covered              
+#         bin st_5                                           26          1          -    Covered              
+#         bin st_6                                          172          1          -    Covered              
+#         bin st_7                                          476          1          -    Covered              
+#         bin st_8                                            5          1          -    Covered              
+#     Coverpoint cover_next_state                       100.00%        100          -    Covered              
+#         covered/total bins:                                 9          9          -                      
+#         missing/total bins:                                 0          9          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin nst_0                                         431          1          -    Covered              
+#         bin nst_1                                         180          1          -    Covered              
+#         bin nst_2                                         110          1          -    Covered              
+#         bin nst_3                                         310          1          -    Covered              
+#         bin nst_4                                          90          1          -    Covered              
+#         bin nst_5                                          26          1          -    Covered              
+#         bin nst_6                                         172          1          -    Covered              
+#         bin nst_7                                         476          1          -    Covered              
+#         bin nst_8                                           5          1          -    Covered              
+#  TYPE /uvm_pack/subscriber/state_transitions          100.00%        100          -    Covered              
+#     covered/total bins:                                    30         30          -                      
+#     missing/total bins:                                     0         30          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_cuurent_state                    100.00%        100          -    Covered              
+#         covered/total bins:                                15         15          -                      
+#         missing/total bins:                                 0         15          -                      
+#         % Hit:                                        100.00%        100          -                      
+#     Coverpoint cover_next_state                       100.00%        100          -    Covered              
+#         covered/total bins:                                15         15          -                      
+#         missing/total bins:                                 0         15          -                      
+#         % Hit:                                        100.00%        100          -                      
+#  Covergroup instance \/uvm_pack::subscriber::state_transitions  
+#                                                       100.00%        100          -    Covered              
+#     covered/total bins:                                    30         30          -                      
+#     missing/total bins:                                     0         30          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_cuurent_state                    100.00%        100          -    Covered              
+#         covered/total bins:                                15         15          -                      
+#         missing/total bins:                                 0         15          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin IDLE_trans                                     60          1          -    Covered              
+#         bin CHECK_CARD_trans[1=>2]                         55          1          -    Covered              
+#         bin CHECK_CARD_trans[1=>0]                          5          1          -    Covered              
+#         bin LANGUAGE_CHOICE_trans                          55          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[3=>7]                   17          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[3=>6]                   26          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[3=>5]                    8          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[3=>4]                   17          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[3=>0]                   50          1          -    Covered              
+#         bin WITHDRAWAL_trans[5=>8]                          2          1          -    Covered              
+#         bin WITHDRAWAL_trans[5=>3]                          6          1          -    Covered              
+#         bin DEPOISTE_trans                                 17          1          -    Covered              
+#         bin BALANCE_SERVICE_trans                          26          1          -    Covered              
+#         bin TRANSFER_trans[7=>8]                            3          1          -    Covered              
+#         bin TRANSFER_trans[7=>3]                           14          1          -    Covered              
+#     Coverpoint cover_next_state                       100.00%        100          -    Covered              
+#         covered/total bins:                                15         15          -                      
+#         missing/total bins:                                 0         15          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin IDLE_trans                                     60          1          -    Covered              
+#         bin CHECK_CARD_trans[1=>2]                         55          1          -    Covered              
+#         bin CHECK_CARD_trans[1=>0]                          5          1          -    Covered              
+#         bin LANGUAGE_CHOICE_trans                          55          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[3=>7]                   17          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[3=>6]                   26          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[3=>5]                    8          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[3=>4]                   17          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[3=>0]                   50          1          -    Covered              
+#         bin WITHDRAWAL_trans[5=>8]                          2          1          -    Covered              
+#         bin WITHDRAWAL_trans[5=>3]                          6          1          -    Covered              
+#         bin DEPOISTE_trans                                 17          1          -    Covered              
+#         bin BALANCE_SERVICE_trans                          26          1          -    Covered              
+#         bin TRANSFER_trans[7=>8]                            3          1          -    Covered              
+#         bin TRANSFER_trans[7=>3]                           14          1          -    Covered              
+#  TYPE /uvm_pack/subscriber/data_toggle                 42.85%        100          -    Uncovered            
+#     covered/total bins:                                     6         14          -                      
+#     missing/total bins:                                     8         14          -                      
+#     % Hit:                                             42.85%        100          -                      
+#     Coverpoint cancel                                   0.00%        100          -    ZERO                 
+#         covered/total bins:                                 0          2          -                      
+#         missing/total bins:                                 2          2          -                      
+#         % Hit:                                          0.00%        100          -                      
+#     Coverpoint done                                   100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#     Coverpoint card_spell_out                         100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#     Coverpoint insert                                   0.00%        100          -    ZERO                 
+#         covered/total bins:                                 0          2          -                      
+#         missing/total bins:                                 2          2          -                      
+#         % Hit:                                          0.00%        100          -                      
+#     Coverpoint enter                                    0.00%        100          -    ZERO                 
+#         covered/total bins:                                 0          2          -                      
+#         missing/total bins:                                 2          2          -                      
+#         % Hit:                                          0.00%        100          -                      
+#     Coverpoint atm_init                                 0.00%        100          -    ZERO                 
+#         covered/total bins:                                 0          2          -                      
+#         missing/total bins:                                 2          2          -                      
+#         % Hit:                                          0.00%        100          -                      
+#     Coverpoint abort                                  100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#  Covergroup instance \/uvm_pack::subscriber::data_toggle  
+#                                                        42.85%        100          -    Uncovered            
+#     covered/total bins:                                     6         14          -                      
+#     missing/total bins:                                     8         14          -                      
+#     % Hit:                                             42.85%        100          -                      
+#     Coverpoint cancel                                   0.00%        100          -    ZERO                 
+#         covered/total bins:                                 0          2          -                      
+#         missing/total bins:                                 2          2          -                      
+#         % Hit:                                          0.00%        100          -                      
+#         bin ZERO_ONE                                        0          1          -    ZERO                 
+#         bin ONE_ZERO                                        0          1          -    ZERO                 
+#     Coverpoint done                                   100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin ZERO_ONE                                       63          1          -    Covered              
+#         bin ONE_ZERO                                       63          1          -    Covered              
+#     Coverpoint card_spell_out                         100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin ZERO_ONE                                       10          1          -    Covered              
+#         bin ONE_ZERO                                       10          1          -    Covered              
+#     Coverpoint insert                                   0.00%        100          -    ZERO                 
+#         covered/total bins:                                 0          2          -                      
+#         missing/total bins:                                 2          2          -                      
+#         % Hit:                                          0.00%        100          -                      
+#         bin ZERO_ONE                                        0          1          -    ZERO                 
+#         bin ONE_ZERO                                        0          1          -    ZERO                 
+#     Coverpoint enter                                    0.00%        100          -    ZERO                 
+#         covered/total bins:                                 0          2          -                      
+#         missing/total bins:                                 2          2          -                      
+#         % Hit:                                          0.00%        100          -                      
+#         bin ZERO_ONE                                        0          1          -    ZERO                 
+#         bin ONE_ZERO                                        0          1          -    ZERO                 
+#     Coverpoint atm_init                                 0.00%        100          -    ZERO                 
+#         covered/total bins:                                 0          2          -                      
+#         missing/total bins:                                 2          2          -                      
+#         % Hit:                                          0.00%        100          -                      
+#         bin ZERO_ONE                                        0          1          -    ZERO                 
+#         bin ONE_ZERO                                        0          1          -    ZERO                 
+#     Coverpoint abort                                  100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin ZERO_ONE                                        5          1          -    Covered              
+#         bin ONE_ZERO                                        5          1          -    Covered              
+#  TYPE /uvm_pack/subscriber/cg_input_card_pin            1.56%        100          -    Uncovered            
+#     covered/total bins:                                     1         64          -                      
+#     missing/total bins:                                    63         64          -                      
+#     % Hit:                                              1.56%        100          -                      
+#     Coverpoint cover_op                                 1.56%        100          -    Uncovered            
+#         covered/total bins:                                 1         64          -                      
+#         missing/total bins:                                63         64          -                      
+#         % Hit:                                          1.56%        100          -                      
+#         bin auto[0]                                      1800          1          -    Covered              
+#         bin auto[1]                                         0          1          -    ZERO                 
+#         bin auto[2]                                         0          1          -    ZERO                 
+#         bin auto[3]                                         0          1          -    ZERO                 
+#         bin auto[4]                                         0          1          -    ZERO                 
+#         bin auto[5]                                         0          1          -    ZERO                 
+#         bin auto[6]                                         0          1          -    ZERO                 
+#         bin auto[7]                                         0          1          -    ZERO                 
+#         bin auto[8]                                         0          1          -    ZERO                 
+#         bin auto[9]                                         0          1          -    ZERO                 
+#         bin auto[10]                                        0          1          -    ZERO                 
+#         bin auto[11]                                        0          1          -    ZERO                 
+#         bin auto[12]                                        0          1          -    ZERO                 
+#         bin auto[13]                                        0          1          -    ZERO                 
+#         bin auto[14]                                        0          1          -    ZERO                 
+#         bin auto[15]                                        0          1          -    ZERO                 
+#         bin auto[16]                                        0          1          -    ZERO                 
+#         bin auto[17]                                        0          1          -    ZERO                 
+#         bin auto[18]                                        0          1          -    ZERO                 
+#         bin auto[19]                                        0          1          -    ZERO                 
+#         bin auto[20]                                        0          1          -    ZERO                 
+#         bin auto[21]                                        0          1          -    ZERO                 
+#         bin auto[22]                                        0          1          -    ZERO                 
+#         bin auto[23]                                        0          1          -    ZERO                 
+#         bin auto[24]                                        0          1          -    ZERO                 
+#         bin auto[25]                                        0          1          -    ZERO                 
+#         bin auto[26]                                        0          1          -    ZERO                 
+#         bin auto[27]                                        0          1          -    ZERO                 
+#         bin auto[28]                                        0          1          -    ZERO                 
+#         bin auto[29]                                        0          1          -    ZERO                 
+#         bin auto[30]                                        0          1          -    ZERO                 
+#         bin auto[31]                                        0          1          -    ZERO                 
+#         bin auto[32]                                        0          1          -    ZERO                 
+#         bin auto[33]                                        0          1          -    ZERO                 
+#         bin auto[34]                                        0          1          -    ZERO                 
+#         bin auto[35]                                        0          1          -    ZERO                 
+#         bin auto[36]                                        0          1          -    ZERO                 
+#         bin auto[37]                                        0          1          -    ZERO                 
+#         bin auto[38]                                        0          1          -    ZERO                 
+#         bin auto[39]                                        0          1          -    ZERO                 
+#         bin auto[40]                                        0          1          -    ZERO                 
+#         bin auto[41]                                        0          1          -    ZERO                 
+#         bin auto[42]                                        0          1          -    ZERO                 
+#         bin auto[43]                                        0          1          -    ZERO                 
+#         bin auto[44]                                        0          1          -    ZERO                 
+#         bin auto[45]                                        0          1          -    ZERO                 
+#         bin auto[46]                                        0          1          -    ZERO                 
+#         bin auto[47]                                        0          1          -    ZERO                 
+#         bin auto[48]                                        0          1          -    ZERO                 
+#         bin auto[49]                                        0          1          -    ZERO                 
+#         bin auto[50]                                        0          1          -    ZERO                 
+#         bin auto[51]                                        0          1          -    ZERO                 
+#         bin auto[52]                                        0          1          -    ZERO                 
+#         bin auto[53]                                        0          1          -    ZERO                 
+#         bin auto[54]                                        0          1          -    ZERO                 
+#         bin auto[55]                                        0          1          -    ZERO                 
+#         bin auto[56]                                        0          1          -    ZERO                 
+#         bin auto[57]                                        0          1          -    ZERO                 
+#         bin auto[58]                                        0          1          -    ZERO                 
+#         bin auto[59]                                        0          1          -    ZERO                 
+#         bin auto[60]                                        0          1          -    ZERO                 
+#         bin auto[61]                                        0          1          -    ZERO                 
+#         bin auto[62]                                        0          1          -    ZERO                 
+#         bin auto[63]                                        0          1          -    ZERO                 
+#  TYPE /uvm_pack/subscriber/cg_op_choice                25.00%        100          -    Uncovered            
+#     covered/total bins:                                     1          4          -                      
+#     missing/total bins:                                     3          4          -                      
+#     % Hit:                                             25.00%        100          -                      
+#     Coverpoint cover_op                                25.00%        100          -    Uncovered            
+#         covered/total bins:                                 1          4          -                      
+#         missing/total bins:                                 3          4          -                      
+#         % Hit:                                         25.00%        100          -                      
+#         bin auto[0]                                      1800          1          -    Covered              
+#         bin auto[1]                                         0          1          -    ZERO                 
+#         bin auto[2]                                         0          1          -    ZERO                 
+#         bin auto[3]                                         0          1          -    ZERO                 
+# 
+# COVERGROUP COVERAGE:
+# ----------------------------------------------------------------------------------------------------------
+# Covergroup                                             Metric       Goal       Bins    Status               
+#                                                                                                          
+# ----------------------------------------------------------------------------------------------------------
+#  TYPE /uvm_pack/subscriber/statess                    100.00%        100          -    Covered              
+#     covered/total bins:                                    18         18          -                      
+#     missing/total bins:                                     0         18          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_cuurent_state                    100.00%        100          -    Covered              
+#         covered/total bins:                                 9          9          -                      
+#         missing/total bins:                                 0          9          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin st_0                                          481          1          -    Covered              
+#         bin st_1                                          180          1          -    Covered              
+#         bin st_2                                          110          1          -    Covered              
+#         bin st_3                                          260          1          -    Covered              
+#         bin st_4                                           90          1          -    Covered              
+#         bin st_5                                           26          1          -    Covered              
+#         bin st_6                                          172          1          -    Covered              
+#         bin st_7                                          476          1          -    Covered              
+#         bin st_8                                            5          1          -    Covered              
+#     Coverpoint cover_next_state                       100.00%        100          -    Covered              
+#         covered/total bins:                                 9          9          -                      
+#         missing/total bins:                                 0          9          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin nst_0                                         431          1          -    Covered              
+#         bin nst_1                                         180          1          -    Covered              
+#         bin nst_2                                         110          1          -    Covered              
+#         bin nst_3                                         310          1          -    Covered              
+#         bin nst_4                                          90          1          -    Covered              
+#         bin nst_5                                          26          1          -    Covered              
+#         bin nst_6                                         172          1          -    Covered              
+#         bin nst_7                                         476          1          -    Covered              
+#         bin nst_8                                           5          1          -    Covered              
+#  TYPE /uvm_pack/subscriber/state_transitions          100.00%        100          -    Covered              
+#     covered/total bins:                                    30         30          -                      
+#     missing/total bins:                                     0         30          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_cuurent_state                    100.00%        100          -    Covered              
+#         covered/total bins:                                15         15          -                      
+#         missing/total bins:                                 0         15          -                      
+#         % Hit:                                        100.00%        100          -                      
+#     Coverpoint cover_next_state                       100.00%        100          -    Covered              
+#         covered/total bins:                                15         15          -                      
+#         missing/total bins:                                 0         15          -                      
+#         % Hit:                                        100.00%        100          -                      
+#  Covergroup instance \/uvm_pack::subscriber::state_transitions  
+#                                                       100.00%        100          -    Covered              
+#     covered/total bins:                                    30         30          -                      
+#     missing/total bins:                                     0         30          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_cuurent_state                    100.00%        100          -    Covered              
+#         covered/total bins:                                15         15          -                      
+#         missing/total bins:                                 0         15          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin IDLE_trans                                     60          1          -    Covered              
+#         bin CHECK_CARD_trans[1=>2]                         55          1          -    Covered              
+#         bin CHECK_CARD_trans[1=>0]                          5          1          -    Covered              
+#         bin LANGUAGE_CHOICE_trans                          55          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[3=>7]                   17          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[3=>6]                   26          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[3=>5]                    8          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[3=>4]                   17          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[3=>0]                   50          1          -    Covered              
+#         bin WITHDRAWAL_trans[5=>8]                          2          1          -    Covered              
+#         bin WITHDRAWAL_trans[5=>3]                          6          1          -    Covered              
+#         bin DEPOISTE_trans                                 17          1          -    Covered              
+#         bin BALANCE_SERVICE_trans                          26          1          -    Covered              
+#         bin TRANSFER_trans[7=>8]                            3          1          -    Covered              
+#         bin TRANSFER_trans[7=>3]                           14          1          -    Covered              
+#     Coverpoint cover_next_state                       100.00%        100          -    Covered              
+#         covered/total bins:                                15         15          -                      
+#         missing/total bins:                                 0         15          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin IDLE_trans                                     60          1          -    Covered              
+#         bin CHECK_CARD_trans[1=>2]                         55          1          -    Covered              
+#         bin CHECK_CARD_trans[1=>0]                          5          1          -    Covered              
+#         bin LANGUAGE_CHOICE_trans                          55          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[3=>7]                   17          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[3=>6]                   26          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[3=>5]                    8          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[3=>4]                   17          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[3=>0]                   50          1          -    Covered              
+#         bin WITHDRAWAL_trans[5=>8]                          2          1          -    Covered              
+#         bin WITHDRAWAL_trans[5=>3]                          6          1          -    Covered              
+#         bin DEPOISTE_trans                                 17          1          -    Covered              
+#         bin BALANCE_SERVICE_trans                          26          1          -    Covered              
+#         bin TRANSFER_trans[7=>8]                            3          1          -    Covered              
+#         bin TRANSFER_trans[7=>3]                           14          1          -    Covered              
+#  TYPE /uvm_pack/subscriber/data_toggle                 42.85%        100          -    Uncovered            
+#     covered/total bins:                                     6         14          -                      
+#     missing/total bins:                                     8         14          -                      
+#     % Hit:                                             42.85%        100          -                      
+#     Coverpoint cancel                                   0.00%        100          -    ZERO                 
+#         covered/total bins:                                 0          2          -                      
+#         missing/total bins:                                 2          2          -                      
+#         % Hit:                                          0.00%        100          -                      
+#     Coverpoint done                                   100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#     Coverpoint card_spell_out                         100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#     Coverpoint insert                                   0.00%        100          -    ZERO                 
+#         covered/total bins:                                 0          2          -                      
+#         missing/total bins:                                 2          2          -                      
+#         % Hit:                                          0.00%        100          -                      
+#     Coverpoint enter                                    0.00%        100          -    ZERO                 
+#         covered/total bins:                                 0          2          -                      
+#         missing/total bins:                                 2          2          -                      
+#         % Hit:                                          0.00%        100          -                      
+#     Coverpoint atm_init                                 0.00%        100          -    ZERO                 
+#         covered/total bins:                                 0          2          -                      
+#         missing/total bins:                                 2          2          -                      
+#         % Hit:                                          0.00%        100          -                      
+#     Coverpoint abort                                  100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#  Covergroup instance \/uvm_pack::subscriber::data_toggle  
+#                                                        42.85%        100          -    Uncovered            
+#     covered/total bins:                                     6         14          -                      
+#     missing/total bins:                                     8         14          -                      
+#     % Hit:                                             42.85%        100          -                      
+#     Coverpoint cancel                                   0.00%        100          -    ZERO                 
+#         covered/total bins:                                 0          2          -                      
+#         missing/total bins:                                 2          2          -                      
+#         % Hit:                                          0.00%        100          -                      
+#         bin ZERO_ONE                                        0          1          -    ZERO                 
+#         bin ONE_ZERO                                        0          1          -    ZERO                 
+#     Coverpoint done                                   100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin ZERO_ONE                                       63          1          -    Covered              
+#         bin ONE_ZERO                                       63          1          -    Covered              
+#     Coverpoint card_spell_out                         100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin ZERO_ONE                                       10          1          -    Covered              
+#         bin ONE_ZERO                                       10          1          -    Covered              
+#     Coverpoint insert                                   0.00%        100          -    ZERO                 
+#         covered/total bins:                                 0          2          -                      
+#         missing/total bins:                                 2          2          -                      
+#         % Hit:                                          0.00%        100          -                      
+#         bin ZERO_ONE                                        0          1          -    ZERO                 
+#         bin ONE_ZERO                                        0          1          -    ZERO                 
+#     Coverpoint enter                                    0.00%        100          -    ZERO                 
+#         covered/total bins:                                 0          2          -                      
+#         missing/total bins:                                 2          2          -                      
+#         % Hit:                                          0.00%        100          -                      
+#         bin ZERO_ONE                                        0          1          -    ZERO                 
+#         bin ONE_ZERO                                        0          1          -    ZERO                 
+#     Coverpoint atm_init                                 0.00%        100          -    ZERO                 
+#         covered/total bins:                                 0          2          -                      
+#         missing/total bins:                                 2          2          -                      
+#         % Hit:                                          0.00%        100          -                      
+#         bin ZERO_ONE                                        0          1          -    ZERO                 
+#         bin ONE_ZERO                                        0          1          -    ZERO                 
+#     Coverpoint abort                                  100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin ZERO_ONE                                        5          1          -    Covered              
+#         bin ONE_ZERO                                        5          1          -    Covered              
+#  TYPE /uvm_pack/subscriber/cg_input_card_pin            1.56%        100          -    Uncovered            
+#     covered/total bins:                                     1         64          -                      
+#     missing/total bins:                                    63         64          -                      
+#     % Hit:                                              1.56%        100          -                      
+#     Coverpoint cover_op                                 1.56%        100          -    Uncovered            
+#         covered/total bins:                                 1         64          -                      
+#         missing/total bins:                                63         64          -                      
+#         % Hit:                                          1.56%        100          -                      
+#         bin auto[0]                                      1800          1          -    Covered              
+#         bin auto[1]                                         0          1          -    ZERO                 
+#         bin auto[2]                                         0          1          -    ZERO                 
+#         bin auto[3]                                         0          1          -    ZERO                 
+#         bin auto[4]                                         0          1          -    ZERO                 
+#         bin auto[5]                                         0          1          -    ZERO                 
+#         bin auto[6]                                         0          1          -    ZERO                 
+#         bin auto[7]                                         0          1          -    ZERO                 
+#         bin auto[8]                                         0          1          -    ZERO                 
+#         bin auto[9]                                         0          1          -    ZERO                 
+#         bin auto[10]                                        0          1          -    ZERO                 
+#         bin auto[11]                                        0          1          -    ZERO                 
+#         bin auto[12]                                        0          1          -    ZERO                 
+#         bin auto[13]                                        0          1          -    ZERO                 
+#         bin auto[14]                                        0          1          -    ZERO                 
+#         bin auto[15]                                        0          1          -    ZERO                 
+#         bin auto[16]                                        0          1          -    ZERO                 
+#         bin auto[17]                                        0          1          -    ZERO                 
+#         bin auto[18]                                        0          1          -    ZERO                 
+#         bin auto[19]                                        0          1          -    ZERO                 
+#         bin auto[20]                                        0          1          -    ZERO                 
+#         bin auto[21]                                        0          1          -    ZERO                 
+#         bin auto[22]                                        0          1          -    ZERO                 
+#         bin auto[23]                                        0          1          -    ZERO                 
+#         bin auto[24]                                        0          1          -    ZERO                 
+#         bin auto[25]                                        0          1          -    ZERO                 
+#         bin auto[26]                                        0          1          -    ZERO                 
+#         bin auto[27]                                        0          1          -    ZERO                 
+#         bin auto[28]                                        0          1          -    ZERO                 
+#         bin auto[29]                                        0          1          -    ZERO                 
+#         bin auto[30]                                        0          1          -    ZERO                 
+#         bin auto[31]                                        0          1          -    ZERO                 
+#         bin auto[32]                                        0          1          -    ZERO                 
+#         bin auto[33]                                        0          1          -    ZERO                 
+#         bin auto[34]                                        0          1          -    ZERO                 
+#         bin auto[35]                                        0          1          -    ZERO                 
+#         bin auto[36]                                        0          1          -    ZERO                 
+#         bin auto[37]                                        0          1          -    ZERO                 
+#         bin auto[38]                                        0          1          -    ZERO                 
+#         bin auto[39]                                        0          1          -    ZERO                 
+#         bin auto[40]                                        0          1          -    ZERO                 
+#         bin auto[41]                                        0          1          -    ZERO                 
+#         bin auto[42]                                        0          1          -    ZERO                 
+#         bin auto[43]                                        0          1          -    ZERO                 
+#         bin auto[44]                                        0          1          -    ZERO                 
+#         bin auto[45]                                        0          1          -    ZERO                 
+#         bin auto[46]                                        0          1          -    ZERO                 
+#         bin auto[47]                                        0          1          -    ZERO                 
+#         bin auto[48]                                        0          1          -    ZERO                 
+#         bin auto[49]                                        0          1          -    ZERO                 
+#         bin auto[50]                                        0          1          -    ZERO                 
+#         bin auto[51]                                        0          1          -    ZERO                 
+#         bin auto[52]                                        0          1          -    ZERO                 
+#         bin auto[53]                                        0          1          -    ZERO                 
+#         bin auto[54]                                        0          1          -    ZERO                 
+#         bin auto[55]                                        0          1          -    ZERO                 
+#         bin auto[56]                                        0          1          -    ZERO                 
+#         bin auto[57]                                        0          1          -    ZERO                 
+#         bin auto[58]                                        0          1          -    ZERO                 
+#         bin auto[59]                                        0          1          -    ZERO                 
+#         bin auto[60]                                        0          1          -    ZERO                 
+#         bin auto[61]                                        0          1          -    ZERO                 
+#         bin auto[62]                                        0          1          -    ZERO                 
+#         bin auto[63]                                        0          1          -    ZERO                 
+#  TYPE /uvm_pack/subscriber/cg_op_choice                25.00%        100          -    Uncovered            
+#     covered/total bins:                                     1          4          -                      
+#     missing/total bins:                                     3          4          -                      
+#     % Hit:                                             25.00%        100          -                      
+#     Coverpoint cover_op                                25.00%        100          -    Uncovered            
+#         covered/total bins:                                 1          4          -                      
+#         missing/total bins:                                 3          4          -                      
+#         % Hit:                                         25.00%        100          -                      
+#         bin auto[0]                                      1800          1          -    Covered              
+#         bin auto[1]                                         0          1          -    ZERO                 
+#         bin auto[2]                                         0          1          -    ZERO                 
+#         bin auto[3]                                         0          1          -    ZERO                 
+# 
+# TOTAL COVERGROUP COVERAGE: 53.88%  COVERGROUP TYPES: 5
+# 
+# ASSERTION RESULTS:
+# --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Name                 Assertion   Design     Design     Lang File(Line)                Enable    Failure      Pass     Vacuous    Disable    Attempt     Active Peak Active ATV FPSA   Failure Pass    Failure EOS  Formal       Formal
+#                      Type        Unit       UnitType                                            Count        Count    Count      Count      Count       Count  Count           Action Log     Log     Limit   Note Status       Radius
+# --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# /atm_tb/assert__Ref_password
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(162)           on            0          1 CCCC   -       -     unlimited off                     
+# /atm_tb/assert__ATM_capacity_1
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(157)           on            0          1 CCCC   -       -     unlimited off                     
+# /atm_tb/assert__ATM_capacity
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(152)           on            0          1 CCCC   -       -     unlimited off                     
+# /atm_tb/assert__final_credit_2
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(147)           on            0          1 CCCC   -       -     unlimited off                     
+# /atm_tb/assert__Final_Up_limit_1
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(142)           on            0          1 CCCC   -       -     unlimited off                     
+# /atm_tb/assert__Final_Up_limit
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(137)           on            0          1 CCCC   -       -     unlimited off                     
+# /atm_tb/assert__final_credit_1
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(132)           on            0          1 CCCC   -       -     unlimited off                     
+# /atm_tb/assert__final_credit
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(127)           on            0          1 CCCC   -       -     unlimited off                     
+# /atm_tb/assert__Abort_signal_in_WITHDRAWAL
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(111)           on            0          1 CCCC   -       -     unlimited off                     
+# /atm_tb/assert__Balance_service_transition
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(73)            on            0          1 CCCC   -       -     unlimited off                     
+# /atm_tb/assert__WITHDRAWAL_transition_2
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(68)            on            0          1 CCCC   -       -     unlimited off                     
+# /atm_tb/assert__OPERATION_CHOICE_transition_5
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(51)            on            0          1 CCCC   -       -     unlimited off                     
+# /atm_tb/assert__OPERATION_CHOICE_transition_4
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(46)            on            0          1 CCCC   -       -     unlimited off                     
+# /atm_tb/assert__OPERATION_CHOICE_transition_3
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(41)            on            0          1 CCCC   -       -     unlimited off                     
+# /atm_tb/assert__checkcard_transition_2
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(25)            on            0          1 CCCC   -       -     unlimited off                     
+# /atm_tb/assert__checkcard_transition_1
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(20)            on            0          1 CCCC   -       -     unlimited off                     
+# /atm_tb/assert__IDLE_Transition_2
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(15)            on            0          1 CCCC   -       -     unlimited off                     
+# /atm_tb/assert__IDLE_Transition_1
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(10)            on            0          1 CCCC   -       -     unlimited off                     
+# /uvm_pkg/uvm_component_name_check_visitor/visit/immed__262
+#                      Immediate   uvm_pkg    Verilog    SVA  /usr/share/questa/questasim/linux_x86_64/../verilog_src/uvm-1.2/src/base/uvm_traversal.svh(262)
+#                                                                                         on            0         34          0          0         34          0           0 off CCCC   -       off   unlimited off                     
+# 
+# Total Coverage By Instance (filtered view): 76.94%

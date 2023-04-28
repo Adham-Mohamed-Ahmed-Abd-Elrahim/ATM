@@ -1,0 +1,852 @@
+# Coverage Report by instance with details
+# 
+# =================================================================================
+# === Instance: /atm_tb
+# === Design Unit: work.atm_tb
+# =================================================================================
+# 
+# Assertion Coverage:
+#     Assertions                      26        25         1    96.15%
+# --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Name                 Assertion   Design     Design     Lang File(Line)                Enable    Failure      Pass     Vacuous    Disable    Attempt     Active Peak Active ATV FPSA   Failure Pass    Failure EOS  Formal       Formal
+#                      Type        Unit       UnitType                                            Count        Count    Count      Count      Count       Count  Count           Action Log     Log     Limit   Note Status       Radius
+# --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# /atm_tb/assert__Ref_password
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(162)           on           10        990      24012          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__ATM_capacity_1
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(157)           on            0        144      24868          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__ATM_capacity
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(152)           on            0         46      24966          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__final_credit_2
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(147)           on            0        144      24868          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__Final_Up_limit_1
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(142)           on            0         46      24966          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__Final_Up_limit
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(137)           on            0         23      24989          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__final_credit_1
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(132)           on            0         46      24966          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__final_credit
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(127)           on            0         23      24989          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__Abort_signal_in_Transfer
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(120)           on            0         89      24923          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__Abort_signal_in_WITHDRAWAL
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(111)           on            0         95      24917          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__Done_signal_in_WITHDRAWAL
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(98)            on            0        105      24907          0      25012          0           6 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__Transfer_transition_2
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(85)            on            0         89      24923          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__Transfer_transition_1
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(80)            on            0         30      24982          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__Balance_service_transition
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(73)            on            0        161      24851          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__WITHDRAWAL_transition_2
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(68)            on            0         95      24917          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__WITHDRAWAL_transition_1
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(63)            on            0          1      25011          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__OPERATION_CHOICE_transition_5
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(51)            on            0        142      24870          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__OPERATION_CHOICE_transition_4
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(46)            on            0        161      24851          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__OPERATION_CHOICE_transition_3
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(41)            on            0        142      24870          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__OPERATION_CHOICE_transition_2
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(36)            on            0        144      24868          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__OPERATION_CHOICE_transition_1
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(31)            on            0         30      24982          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__checkcard_transition_2
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(25)            on            0        214      24798          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__checkcard_transition_1
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(20)            on            0        264      24748          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__IDLE_Transition_2
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(15)            on            0       2021      22990          0      25012          1           2 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__IDLE_Transition_1
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(10)            on            0        905      24107          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__states
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(5)             on            0      25012          0          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# 
+# Covergroup Coverage:
+#     Covergroups                      8        na        na   100.00%
+#         Coverpoints/Crosses         10        na        na        na
+#             Covergroup Bins        138       138         0   100.00%
+# ----------------------------------------------------------------------------------------------------------
+# Covergroup                                             Metric       Goal       Bins    Status               
+#                                                                                                          
+# ----------------------------------------------------------------------------------------------------------
+#  TYPE /atm_tb/statess                                 100.00%        100          -    Covered              
+#     covered/total bins:                                    18         18          -                      
+#     missing/total bins:                                     0         18          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_cuurent_state                    100.00%        100          -    Covered              
+#         covered/total bins:                                 9          9          -                      
+#         missing/total bins:                                 0          9          -                      
+#         % Hit:                                        100.00%        100          -                      
+#     Coverpoint cover_next_state                       100.00%        100          -    Covered              
+#         covered/total bins:                                 9          9          -                      
+#         missing/total bins:                                 0          9          -                      
+#         % Hit:                                        100.00%        100          -                      
+#  Covergroup instance \/atm_tb/cover_states            100.00%        100          -    Covered              
+#     covered/total bins:                                    18         18          -                      
+#     missing/total bins:                                     0         18          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_cuurent_state                    100.00%        100          -    Covered              
+#         covered/total bins:                                 9          9          -                      
+#         missing/total bins:                                 0          9          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin st_0                                         2932          1          -    Covered              
+#         bin st_1                                         1810          1          -    Covered              
+#         bin st_2                                          428          1          -    Covered              
+#         bin st_3                                         1592          1          -    Covered              
+#         bin st_4                                          496          1          -    Covered              
+#         bin st_5                                          161          1          -    Covered              
+#         bin st_6                                         4367          1          -    Covered              
+#         bin st_7                                        13042          1          -    Covered              
+#         bin st_8                                          184          1          -    Covered              
+#     Coverpoint cover_next_state                       100.00%        100          -    Covered              
+#         covered/total bins:                                 9          9          -                      
+#         missing/total bins:                                 0          9          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin nst_0                                        2932          1          -    Covered              
+#         bin nst_1                                        1810          1          -    Covered              
+#         bin nst_2                                         428          1          -    Covered              
+#         bin nst_3                                        1592          1          -    Covered              
+#         bin nst_4                                         496          1          -    Covered              
+#         bin nst_5                                         161          1          -    Covered              
+#         bin nst_6                                        4367          1          -    Covered              
+#         bin nst_7                                       13042          1          -    Covered              
+#         bin nst_8                                         184          1          -    Covered              
+#  TYPE /atm_tb/state_transitions                       100.00%        100          -    Covered              
+#     covered/total bins:                                    30         30          -                      
+#     missing/total bins:                                     0         30          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_cuurent_state                    100.00%        100          -    Covered              
+#         covered/total bins:                                15         15          -                      
+#         missing/total bins:                                 0         15          -                      
+#         % Hit:                                        100.00%        100          -                      
+#     Coverpoint cover_next_state                       100.00%        100          -    Covered              
+#         covered/total bins:                                15         15          -                      
+#         missing/total bins:                                 0         15          -                      
+#         % Hit:                                        100.00%        100          -                      
+#  Covergroup instance \/atm_tb/cover_states_trans      100.00%        100          -    Covered              
+#     covered/total bins:                                    30         30          -                      
+#     missing/total bins:                                     0         30          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_cuurent_state                    100.00%        100          -    Covered              
+#         covered/total bins:                                15         15          -                      
+#         missing/total bins:                                 0         15          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin IDLE_trans                                    905          1          -    Covered              
+#         bin CHECK_CARD_trans[CHECK_CARD=>LANGUAGE_CHOICE] 
+#                                                           214          1          -    Covered              
+#         bin CHECK_CARD_trans[CHECK_CARD=>IDLE]            691          1          -    Covered              
+#         bin LANGUAGE_CHOICE_trans                         214          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[OPERATION_CHOICE=>TRANSFER] 
+#                                                           142          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[OPERATION_CHOICE=>BALANCE_SERVICE] 
+#                                                           161          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[OPERATION_CHOICE=>WITHDRAWAL] 
+#                                                           142          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[OPERATION_CHOICE=>DEPOSITE] 
+#                                                           144          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[OPERATION_CHOICE=>IDLE] 
+#                                                            30          1          -    Covered              
+#         bin WITHDRAWAL_trans[WITHDRAWAL=>ABORT]            95          1          -    Covered              
+#         bin WITHDRAWAL_trans[WITHDRAWAL=>OPERATION_CHOICE] 
+#                                                            47          1          -    Covered              
+#         bin DEPOISTE_trans                                144          1          -    Covered              
+#         bin BALANCE_SERVICE_trans                         161          1          -    Covered              
+#         bin TRANSFER_trans[TRANSFER=>ABORT]                89          1          -    Covered              
+#         bin TRANSFER_trans[TRANSFER=>OPERATION_CHOICE] 
+#                                                            53          1          -    Covered              
+#     Coverpoint cover_next_state                       100.00%        100          -    Covered              
+#         covered/total bins:                                15         15          -                      
+#         missing/total bins:                                 0         15          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin IDLE_trans                                    905          1          -    Covered              
+#         bin CHECK_CARD_trans[CHECK_CARD=>LANGUAGE_CHOICE] 
+#                                                           214          1          -    Covered              
+#         bin CHECK_CARD_trans[CHECK_CARD=>IDLE]            691          1          -    Covered              
+#         bin LANGUAGE_CHOICE_trans                         214          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[OPERATION_CHOICE=>TRANSFER] 
+#                                                           142          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[OPERATION_CHOICE=>BALANCE_SERVICE] 
+#                                                           161          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[OPERATION_CHOICE=>WITHDRAWAL] 
+#                                                           142          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[OPERATION_CHOICE=>DEPOSITE] 
+#                                                           144          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[OPERATION_CHOICE=>IDLE] 
+#                                                            30          1          -    Covered              
+#         bin WITHDRAWAL_trans[WITHDRAWAL=>ABORT]            95          1          -    Covered              
+#         bin WITHDRAWAL_trans[WITHDRAWAL=>OPERATION_CHOICE] 
+#                                                            47          1          -    Covered              
+#         bin DEPOISTE_trans                                144          1          -    Covered              
+#         bin BALANCE_SERVICE_trans                         161          1          -    Covered              
+#         bin TRANSFER_trans[TRANSFER=>ABORT]                89          1          -    Covered              
+#         bin TRANSFER_trans[TRANSFER=>OPERATION_CHOICE] 
+#                                                            53          1          -    Covered              
+#  TYPE /atm_tb/toggle                                  100.00%        100          -    Covered              
+#     covered/total bins:                                    16         16          -                      
+#     missing/total bins:                                     0         16          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_toggle                           100.00%        100          -    Covered              
+#         covered/total bins:                                16         16          -                      
+#         missing/total bins:                                 0         16          -                      
+#         % Hit:                                        100.00%        100          -                      
+#  Covergroup instance \/atm_tb/toggle_1                100.00%        100          -    Covered              
+#     covered/total bins:                                     2          2          -                      
+#     missing/total bins:                                     0          2          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_toggle                           100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin from_0_to_1                                   942          1          -    Covered              
+#         bin from_1_to_0                                   942          1          -    Covered              
+#  Covergroup instance \/atm_tb/toggle_2                100.00%        100          -    Covered              
+#     covered/total bins:                                     2          2          -                      
+#     missing/total bins:                                     0          2          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_toggle                           100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin from_0_to_1                                   374          1          -    Covered              
+#         bin from_1_to_0                                   374          1          -    Covered              
+#  Covergroup instance \/atm_tb/toggle_3                100.00%        100          -    Covered              
+#     covered/total bins:                                     2          2          -                      
+#     missing/total bins:                                     0          2          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_toggle                           100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin from_0_to_1                                   905          1          -    Covered              
+#         bin from_1_to_0                                   905          1          -    Covered              
+#  Covergroup instance \/atm_tb/toggle_5                100.00%        100          -    Covered              
+#     covered/total bins:                                     2          2          -                      
+#     missing/total bins:                                     0          2          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_toggle                           100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin from_0_to_1                                   999          1          -    Covered              
+#         bin from_1_to_0                                  1000          1          -    Covered              
+#  Covergroup instance \/atm_tb/toggle_6                100.00%        100          -    Covered              
+#     covered/total bins:                                     2          2          -                      
+#     missing/total bins:                                     0          2          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_toggle                           100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin from_0_to_1                                  2439          1          -    Covered              
+#         bin from_1_to_0                                  2439          1          -    Covered              
+#  Covergroup instance \/atm_tb/toggle_7                100.00%        100          -    Covered              
+#     covered/total bins:                                     2          2          -                      
+#     missing/total bins:                                     0          2          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_toggle                           100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin from_0_to_1                                    58          1          -    Covered              
+#         bin from_1_to_0                                    58          1          -    Covered              
+#  Covergroup instance \/atm_tb/toggle_9                100.00%        100          -    Covered              
+#     covered/total bins:                                     2          2          -                      
+#     missing/total bins:                                     0          2          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_toggle                           100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin from_0_to_1                                     1          1          -    Covered              
+#         bin from_1_to_0                                     1          1          -    Covered              
+#  Covergroup instance \/atm_tb/toggle_10               100.00%        100          -    Covered              
+#     covered/total bins:                                     2          2          -                      
+#     missing/total bins:                                     0          2          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_toggle                           100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin from_0_to_1                                   184          1          -    Covered              
+#         bin from_1_to_0                                   184          1          -    Covered              
+#  TYPE /atm_tb/toggle_trans_en                         100.00%        100          -    Covered              
+#     covered/total bins:                                     2          2          -                      
+#     missing/total bins:                                     0          2          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_toggle_trans_en                  100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#  Covergroup instance \/atm_tb/toggle_trans_en_int     100.00%        100          -    Covered              
+#     covered/total bins:                                     2          2          -                      
+#     missing/total bins:                                     0          2          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_toggle_trans_en                  100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin from_0_to_1                                    23          1          -    Covered              
+#         bin from_1_to_0                                    23          1          -    Covered              
+#  TYPE /atm_tb/toggle_valid                            100.00%        100          -    Covered              
+#     covered/total bins:                                     2          2          -                      
+#     missing/total bins:                                     0          2          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_toggle_trans_en                  100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#  Covergroup instance \/atm_tb/toggle_valid_inst       100.00%        100          -    Covered              
+#     covered/total bins:                                     2          2          -                      
+#     missing/total bins:                                     0          2          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_toggle_trans_en                  100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin from_0_to_1                                   105          1          -    Covered              
+#         bin from_1_to_0                                   105          1          -    Covered              
+#  TYPE /atm_tb/toggle_wren                             100.00%        100          -    Covered              
+#     covered/total bins:                                     2          2          -                      
+#     missing/total bins:                                     0          2          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_toggle_trans_en                  100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#  Covergroup instance \/atm_tb/toggle_wren_inst        100.00%        100          -    Covered              
+#     covered/total bins:                                     2          2          -                      
+#     missing/total bins:                                     0          2          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_toggle_trans_en                  100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin from_0_to_1                                   296          1          -    Covered              
+#         bin from_1_to_0                                   296          1          -    Covered              
+#  TYPE /atm_tb/cg_input_card_pin                       100.00%        100          -    Covered              
+#     covered/total bins:                                    64         64          -                      
+#     missing/total bins:                                     0         64          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_op                               100.00%        100          -    Covered              
+#         covered/total bins:                                64         64          -                      
+#         missing/total bins:                                 0         64          -                      
+#         % Hit:                                        100.00%        100          -                      
+#  Covergroup instance \/atm_tb/cg_input_card_pin_inst  
+#                                                       100.00%        100          -    Covered              
+#     covered/total bins:                                    64         64          -                      
+#     missing/total bins:                                     0         64          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_op                               100.00%        100          -    Covered              
+#         covered/total bins:                                64         64          -                      
+#         missing/total bins:                                 0         64          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin auto[0]                                       894          1          -    Covered              
+#         bin auto[1]                                       713          1          -    Covered              
+#         bin auto[2]                                       256          1          -    Covered              
+#         bin auto[3]                                       108          1          -    Covered              
+#         bin auto[4]                                        56          1          -    Covered              
+#         bin auto[5]                                       592          1          -    Covered              
+#         bin auto[6]                                       628          1          -    Covered              
+#         bin auto[7]                                       501          1          -    Covered              
+#         bin auto[8]                                        54          1          -    Covered              
+#         bin auto[9]                                       251          1          -    Covered              
+#         bin auto[10]                                      305          1          -    Covered              
+#         bin auto[11]                                      182          1          -    Covered              
+#         bin auto[12]                                      438          1          -    Covered              
+#         bin auto[13]                                      441          1          -    Covered              
+#         bin auto[14]                                      669          1          -    Covered              
+#         bin auto[15]                                       64          1          -    Covered              
+#         bin auto[16]                                       36          1          -    Covered              
+#         bin auto[17]                                      222          1          -    Covered              
+#         bin auto[18]                                       72          1          -    Covered              
+#         bin auto[19]                                      647          1          -    Covered              
+#         bin auto[20]                                     1014          1          -    Covered              
+#         bin auto[21]                                      293          1          -    Covered              
+#         bin auto[22]                                      446          1          -    Covered              
+#         bin auto[23]                                       56          1          -    Covered              
+#         bin auto[24]                                      535          1          -    Covered              
+#         bin auto[25]                                      624          1          -    Covered              
+#         bin auto[26]                                      198          1          -    Covered              
+#         bin auto[27]                                      732          1          -    Covered              
+#         bin auto[28]                                       56          1          -    Covered              
+#         bin auto[29]                                      600          1          -    Covered              
+#         bin auto[30]                                       60          1          -    Covered              
+#         bin auto[31]                                       44          1          -    Covered              
+#         bin auto[32]                                      617          1          -    Covered              
+#         bin auto[33]                                      239          1          -    Covered              
+#         bin auto[34]                                      578          1          -    Covered              
+#         bin auto[35]                                      263          1          -    Covered              
+#         bin auto[36]                                      400          1          -    Covered              
+#         bin auto[37]                                       74          1          -    Covered              
+#         bin auto[38]                                      515          1          -    Covered              
+#         bin auto[39]                                     1040          1          -    Covered              
+#         bin auto[40]                                      423          1          -    Covered              
+#         bin auto[41]                                      327          1          -    Covered              
+#         bin auto[42]                                      369          1          -    Covered              
+#         bin auto[43]                                      856          1          -    Covered              
+#         bin auto[44]                                      625          1          -    Covered              
+#         bin auto[45]                                      423          1          -    Covered              
+#         bin auto[46]                                      411          1          -    Covered              
+#         bin auto[47]                                      895          1          -    Covered              
+#         bin auto[48]                                      653          1          -    Covered              
+#         bin auto[49]                                       60          1          -    Covered              
+#         bin auto[50]                                      127          1          -    Covered              
+#         bin auto[51]                                       36          1          -    Covered              
+#         bin auto[52]                                       64          1          -    Covered              
+#         bin auto[53]                                      352          1          -    Covered              
+#         bin auto[54]                                      291          1          -    Covered              
+#         bin auto[55]                                      489          1          -    Covered              
+#         bin auto[56]                                      510          1          -    Covered              
+#         bin auto[57]                                      176          1          -    Covered              
+#         bin auto[58]                                      684          1          -    Covered              
+#         bin auto[59]                                      180          1          -    Covered              
+#         bin auto[60]                                      374          1          -    Covered              
+#         bin auto[61]                                      328          1          -    Covered              
+#         bin auto[62]                                      281          1          -    Covered              
+#         bin auto[63]                                      562          1          -    Covered              
+#  TYPE /atm_tb/cg_op_choice                            100.00%        100          -    Covered              
+#     covered/total bins:                                     4          4          -                      
+#     missing/total bins:                                     0          4          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_op                               100.00%        100          -    Covered              
+#         covered/total bins:                                 4          4          -                      
+#         missing/total bins:                                 0          4          -                      
+#         % Hit:                                        100.00%        100          -                      
+#  Covergroup instance \/atm_tb/cg_op_choice_inst       100.00%        100          -    Covered              
+#     covered/total bins:                                     4          4          -                      
+#     missing/total bins:                                     0          4          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_op                               100.00%        100          -    Covered              
+#         covered/total bins:                                 4          4          -                      
+#         missing/total bins:                                 0          4          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin auto[0]                                     15245          1          -    Covered              
+#         bin auto[1]                                      3617          1          -    Covered              
+#         bin auto[2]                                      2526          1          -    Covered              
+#         bin auto[3]                                      3571          1          -    Covered              
+# 
+# COVERGROUP COVERAGE:
+# ----------------------------------------------------------------------------------------------------------
+# Covergroup                                             Metric       Goal       Bins    Status               
+#                                                                                                          
+# ----------------------------------------------------------------------------------------------------------
+#  TYPE /atm_tb/statess                                 100.00%        100          -    Covered              
+#     covered/total bins:                                    18         18          -                      
+#     missing/total bins:                                     0         18          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_cuurent_state                    100.00%        100          -    Covered              
+#         covered/total bins:                                 9          9          -                      
+#         missing/total bins:                                 0          9          -                      
+#         % Hit:                                        100.00%        100          -                      
+#     Coverpoint cover_next_state                       100.00%        100          -    Covered              
+#         covered/total bins:                                 9          9          -                      
+#         missing/total bins:                                 0          9          -                      
+#         % Hit:                                        100.00%        100          -                      
+#  Covergroup instance \/atm_tb/cover_states            100.00%        100          -    Covered              
+#     covered/total bins:                                    18         18          -                      
+#     missing/total bins:                                     0         18          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_cuurent_state                    100.00%        100          -    Covered              
+#         covered/total bins:                                 9          9          -                      
+#         missing/total bins:                                 0          9          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin st_0                                         2932          1          -    Covered              
+#         bin st_1                                         1810          1          -    Covered              
+#         bin st_2                                          428          1          -    Covered              
+#         bin st_3                                         1592          1          -    Covered              
+#         bin st_4                                          496          1          -    Covered              
+#         bin st_5                                          161          1          -    Covered              
+#         bin st_6                                         4367          1          -    Covered              
+#         bin st_7                                        13042          1          -    Covered              
+#         bin st_8                                          184          1          -    Covered              
+#     Coverpoint cover_next_state                       100.00%        100          -    Covered              
+#         covered/total bins:                                 9          9          -                      
+#         missing/total bins:                                 0          9          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin nst_0                                        2932          1          -    Covered              
+#         bin nst_1                                        1810          1          -    Covered              
+#         bin nst_2                                         428          1          -    Covered              
+#         bin nst_3                                        1592          1          -    Covered              
+#         bin nst_4                                         496          1          -    Covered              
+#         bin nst_5                                         161          1          -    Covered              
+#         bin nst_6                                        4367          1          -    Covered              
+#         bin nst_7                                       13042          1          -    Covered              
+#         bin nst_8                                         184          1          -    Covered              
+#  TYPE /atm_tb/state_transitions                       100.00%        100          -    Covered              
+#     covered/total bins:                                    30         30          -                      
+#     missing/total bins:                                     0         30          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_cuurent_state                    100.00%        100          -    Covered              
+#         covered/total bins:                                15         15          -                      
+#         missing/total bins:                                 0         15          -                      
+#         % Hit:                                        100.00%        100          -                      
+#     Coverpoint cover_next_state                       100.00%        100          -    Covered              
+#         covered/total bins:                                15         15          -                      
+#         missing/total bins:                                 0         15          -                      
+#         % Hit:                                        100.00%        100          -                      
+#  Covergroup instance \/atm_tb/cover_states_trans      100.00%        100          -    Covered              
+#     covered/total bins:                                    30         30          -                      
+#     missing/total bins:                                     0         30          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_cuurent_state                    100.00%        100          -    Covered              
+#         covered/total bins:                                15         15          -                      
+#         missing/total bins:                                 0         15          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin IDLE_trans                                    905          1          -    Covered              
+#         bin CHECK_CARD_trans[CHECK_CARD=>LANGUAGE_CHOICE] 
+#                                                           214          1          -    Covered              
+#         bin CHECK_CARD_trans[CHECK_CARD=>IDLE]            691          1          -    Covered              
+#         bin LANGUAGE_CHOICE_trans                         214          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[OPERATION_CHOICE=>TRANSFER] 
+#                                                           142          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[OPERATION_CHOICE=>BALANCE_SERVICE] 
+#                                                           161          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[OPERATION_CHOICE=>WITHDRAWAL] 
+#                                                           142          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[OPERATION_CHOICE=>DEPOSITE] 
+#                                                           144          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[OPERATION_CHOICE=>IDLE] 
+#                                                            30          1          -    Covered              
+#         bin WITHDRAWAL_trans[WITHDRAWAL=>ABORT]            95          1          -    Covered              
+#         bin WITHDRAWAL_trans[WITHDRAWAL=>OPERATION_CHOICE] 
+#                                                            47          1          -    Covered              
+#         bin DEPOISTE_trans                                144          1          -    Covered              
+#         bin BALANCE_SERVICE_trans                         161          1          -    Covered              
+#         bin TRANSFER_trans[TRANSFER=>ABORT]                89          1          -    Covered              
+#         bin TRANSFER_trans[TRANSFER=>OPERATION_CHOICE] 
+#                                                            53          1          -    Covered              
+#     Coverpoint cover_next_state                       100.00%        100          -    Covered              
+#         covered/total bins:                                15         15          -                      
+#         missing/total bins:                                 0         15          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin IDLE_trans                                    905          1          -    Covered              
+#         bin CHECK_CARD_trans[CHECK_CARD=>LANGUAGE_CHOICE] 
+#                                                           214          1          -    Covered              
+#         bin CHECK_CARD_trans[CHECK_CARD=>IDLE]            691          1          -    Covered              
+#         bin LANGUAGE_CHOICE_trans                         214          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[OPERATION_CHOICE=>TRANSFER] 
+#                                                           142          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[OPERATION_CHOICE=>BALANCE_SERVICE] 
+#                                                           161          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[OPERATION_CHOICE=>WITHDRAWAL] 
+#                                                           142          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[OPERATION_CHOICE=>DEPOSITE] 
+#                                                           144          1          -    Covered              
+#         bin OPERATION_CHOICE_trans[OPERATION_CHOICE=>IDLE] 
+#                                                            30          1          -    Covered              
+#         bin WITHDRAWAL_trans[WITHDRAWAL=>ABORT]            95          1          -    Covered              
+#         bin WITHDRAWAL_trans[WITHDRAWAL=>OPERATION_CHOICE] 
+#                                                            47          1          -    Covered              
+#         bin DEPOISTE_trans                                144          1          -    Covered              
+#         bin BALANCE_SERVICE_trans                         161          1          -    Covered              
+#         bin TRANSFER_trans[TRANSFER=>ABORT]                89          1          -    Covered              
+#         bin TRANSFER_trans[TRANSFER=>OPERATION_CHOICE] 
+#                                                            53          1          -    Covered              
+#  TYPE /atm_tb/toggle                                  100.00%        100          -    Covered              
+#     covered/total bins:                                    16         16          -                      
+#     missing/total bins:                                     0         16          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_toggle                           100.00%        100          -    Covered              
+#         covered/total bins:                                16         16          -                      
+#         missing/total bins:                                 0         16          -                      
+#         % Hit:                                        100.00%        100          -                      
+#  Covergroup instance \/atm_tb/toggle_1                100.00%        100          -    Covered              
+#     covered/total bins:                                     2          2          -                      
+#     missing/total bins:                                     0          2          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_toggle                           100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin from_0_to_1                                   942          1          -    Covered              
+#         bin from_1_to_0                                   942          1          -    Covered              
+#  Covergroup instance \/atm_tb/toggle_2                100.00%        100          -    Covered              
+#     covered/total bins:                                     2          2          -                      
+#     missing/total bins:                                     0          2          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_toggle                           100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin from_0_to_1                                   374          1          -    Covered              
+#         bin from_1_to_0                                   374          1          -    Covered              
+#  Covergroup instance \/atm_tb/toggle_3                100.00%        100          -    Covered              
+#     covered/total bins:                                     2          2          -                      
+#     missing/total bins:                                     0          2          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_toggle                           100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin from_0_to_1                                   905          1          -    Covered              
+#         bin from_1_to_0                                   905          1          -    Covered              
+#  Covergroup instance \/atm_tb/toggle_5                100.00%        100          -    Covered              
+#     covered/total bins:                                     2          2          -                      
+#     missing/total bins:                                     0          2          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_toggle                           100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin from_0_to_1                                   999          1          -    Covered              
+#         bin from_1_to_0                                  1000          1          -    Covered              
+#  Covergroup instance \/atm_tb/toggle_6                100.00%        100          -    Covered              
+#     covered/total bins:                                     2          2          -                      
+#     missing/total bins:                                     0          2          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_toggle                           100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin from_0_to_1                                  2439          1          -    Covered              
+#         bin from_1_to_0                                  2439          1          -    Covered              
+#  Covergroup instance \/atm_tb/toggle_7                100.00%        100          -    Covered              
+#     covered/total bins:                                     2          2          -                      
+#     missing/total bins:                                     0          2          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_toggle                           100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin from_0_to_1                                    58          1          -    Covered              
+#         bin from_1_to_0                                    58          1          -    Covered              
+#  Covergroup instance \/atm_tb/toggle_9                100.00%        100          -    Covered              
+#     covered/total bins:                                     2          2          -                      
+#     missing/total bins:                                     0          2          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_toggle                           100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin from_0_to_1                                     1          1          -    Covered              
+#         bin from_1_to_0                                     1          1          -    Covered              
+#  Covergroup instance \/atm_tb/toggle_10               100.00%        100          -    Covered              
+#     covered/total bins:                                     2          2          -                      
+#     missing/total bins:                                     0          2          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_toggle                           100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin from_0_to_1                                   184          1          -    Covered              
+#         bin from_1_to_0                                   184          1          -    Covered              
+#  TYPE /atm_tb/toggle_trans_en                         100.00%        100          -    Covered              
+#     covered/total bins:                                     2          2          -                      
+#     missing/total bins:                                     0          2          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_toggle_trans_en                  100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#  Covergroup instance \/atm_tb/toggle_trans_en_int     100.00%        100          -    Covered              
+#     covered/total bins:                                     2          2          -                      
+#     missing/total bins:                                     0          2          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_toggle_trans_en                  100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin from_0_to_1                                    23          1          -    Covered              
+#         bin from_1_to_0                                    23          1          -    Covered              
+#  TYPE /atm_tb/toggle_valid                            100.00%        100          -    Covered              
+#     covered/total bins:                                     2          2          -                      
+#     missing/total bins:                                     0          2          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_toggle_trans_en                  100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#  Covergroup instance \/atm_tb/toggle_valid_inst       100.00%        100          -    Covered              
+#     covered/total bins:                                     2          2          -                      
+#     missing/total bins:                                     0          2          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_toggle_trans_en                  100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin from_0_to_1                                   105          1          -    Covered              
+#         bin from_1_to_0                                   105          1          -    Covered              
+#  TYPE /atm_tb/toggle_wren                             100.00%        100          -    Covered              
+#     covered/total bins:                                     2          2          -                      
+#     missing/total bins:                                     0          2          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_toggle_trans_en                  100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#  Covergroup instance \/atm_tb/toggle_wren_inst        100.00%        100          -    Covered              
+#     covered/total bins:                                     2          2          -                      
+#     missing/total bins:                                     0          2          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_toggle_trans_en                  100.00%        100          -    Covered              
+#         covered/total bins:                                 2          2          -                      
+#         missing/total bins:                                 0          2          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin from_0_to_1                                   296          1          -    Covered              
+#         bin from_1_to_0                                   296          1          -    Covered              
+#  TYPE /atm_tb/cg_input_card_pin                       100.00%        100          -    Covered              
+#     covered/total bins:                                    64         64          -                      
+#     missing/total bins:                                     0         64          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_op                               100.00%        100          -    Covered              
+#         covered/total bins:                                64         64          -                      
+#         missing/total bins:                                 0         64          -                      
+#         % Hit:                                        100.00%        100          -                      
+#  Covergroup instance \/atm_tb/cg_input_card_pin_inst  
+#                                                       100.00%        100          -    Covered              
+#     covered/total bins:                                    64         64          -                      
+#     missing/total bins:                                     0         64          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_op                               100.00%        100          -    Covered              
+#         covered/total bins:                                64         64          -                      
+#         missing/total bins:                                 0         64          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin auto[0]                                       894          1          -    Covered              
+#         bin auto[1]                                       713          1          -    Covered              
+#         bin auto[2]                                       256          1          -    Covered              
+#         bin auto[3]                                       108          1          -    Covered              
+#         bin auto[4]                                        56          1          -    Covered              
+#         bin auto[5]                                       592          1          -    Covered              
+#         bin auto[6]                                       628          1          -    Covered              
+#         bin auto[7]                                       501          1          -    Covered              
+#         bin auto[8]                                        54          1          -    Covered              
+#         bin auto[9]                                       251          1          -    Covered              
+#         bin auto[10]                                      305          1          -    Covered              
+#         bin auto[11]                                      182          1          -    Covered              
+#         bin auto[12]                                      438          1          -    Covered              
+#         bin auto[13]                                      441          1          -    Covered              
+#         bin auto[14]                                      669          1          -    Covered              
+#         bin auto[15]                                       64          1          -    Covered              
+#         bin auto[16]                                       36          1          -    Covered              
+#         bin auto[17]                                      222          1          -    Covered              
+#         bin auto[18]                                       72          1          -    Covered              
+#         bin auto[19]                                      647          1          -    Covered              
+#         bin auto[20]                                     1014          1          -    Covered              
+#         bin auto[21]                                      293          1          -    Covered              
+#         bin auto[22]                                      446          1          -    Covered              
+#         bin auto[23]                                       56          1          -    Covered              
+#         bin auto[24]                                      535          1          -    Covered              
+#         bin auto[25]                                      624          1          -    Covered              
+#         bin auto[26]                                      198          1          -    Covered              
+#         bin auto[27]                                      732          1          -    Covered              
+#         bin auto[28]                                       56          1          -    Covered              
+#         bin auto[29]                                      600          1          -    Covered              
+#         bin auto[30]                                       60          1          -    Covered              
+#         bin auto[31]                                       44          1          -    Covered              
+#         bin auto[32]                                      617          1          -    Covered              
+#         bin auto[33]                                      239          1          -    Covered              
+#         bin auto[34]                                      578          1          -    Covered              
+#         bin auto[35]                                      263          1          -    Covered              
+#         bin auto[36]                                      400          1          -    Covered              
+#         bin auto[37]                                       74          1          -    Covered              
+#         bin auto[38]                                      515          1          -    Covered              
+#         bin auto[39]                                     1040          1          -    Covered              
+#         bin auto[40]                                      423          1          -    Covered              
+#         bin auto[41]                                      327          1          -    Covered              
+#         bin auto[42]                                      369          1          -    Covered              
+#         bin auto[43]                                      856          1          -    Covered              
+#         bin auto[44]                                      625          1          -    Covered              
+#         bin auto[45]                                      423          1          -    Covered              
+#         bin auto[46]                                      411          1          -    Covered              
+#         bin auto[47]                                      895          1          -    Covered              
+#         bin auto[48]                                      653          1          -    Covered              
+#         bin auto[49]                                       60          1          -    Covered              
+#         bin auto[50]                                      127          1          -    Covered              
+#         bin auto[51]                                       36          1          -    Covered              
+#         bin auto[52]                                       64          1          -    Covered              
+#         bin auto[53]                                      352          1          -    Covered              
+#         bin auto[54]                                      291          1          -    Covered              
+#         bin auto[55]                                      489          1          -    Covered              
+#         bin auto[56]                                      510          1          -    Covered              
+#         bin auto[57]                                      176          1          -    Covered              
+#         bin auto[58]                                      684          1          -    Covered              
+#         bin auto[59]                                      180          1          -    Covered              
+#         bin auto[60]                                      374          1          -    Covered              
+#         bin auto[61]                                      328          1          -    Covered              
+#         bin auto[62]                                      281          1          -    Covered              
+#         bin auto[63]                                      562          1          -    Covered              
+#  TYPE /atm_tb/cg_op_choice                            100.00%        100          -    Covered              
+#     covered/total bins:                                     4          4          -                      
+#     missing/total bins:                                     0          4          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_op                               100.00%        100          -    Covered              
+#         covered/total bins:                                 4          4          -                      
+#         missing/total bins:                                 0          4          -                      
+#         % Hit:                                        100.00%        100          -                      
+#  Covergroup instance \/atm_tb/cg_op_choice_inst       100.00%        100          -    Covered              
+#     covered/total bins:                                     4          4          -                      
+#     missing/total bins:                                     0          4          -                      
+#     % Hit:                                            100.00%        100          -                      
+#     Coverpoint cover_op                               100.00%        100          -    Covered              
+#         covered/total bins:                                 4          4          -                      
+#         missing/total bins:                                 0          4          -                      
+#         % Hit:                                        100.00%        100          -                      
+#         bin auto[0]                                     15245          1          -    Covered              
+#         bin auto[1]                                      3617          1          -    Covered              
+#         bin auto[2]                                      2526          1          -    Covered              
+#         bin auto[3]                                      3571          1          -    Covered              
+# 
+# TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 8
+# 
+# ASSERTION RESULTS:
+# --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Name                 Assertion   Design     Design     Lang File(Line)                Enable    Failure      Pass     Vacuous    Disable    Attempt     Active Peak Active ATV FPSA   Failure Pass    Failure EOS  Formal       Formal
+#                      Type        Unit       UnitType                                            Count        Count    Count      Count      Count       Count  Count           Action Log     Log     Limit   Note Status       Radius
+# --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# /atm_tb/assert__Ref_password
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(162)           on           10        990      24012          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__ATM_capacity_1
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(157)           on            0        144      24868          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__ATM_capacity
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(152)           on            0         46      24966          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__final_credit_2
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(147)           on            0        144      24868          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__Final_Up_limit_1
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(142)           on            0         46      24966          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__Final_Up_limit
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(137)           on            0         23      24989          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__final_credit_1
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(132)           on            0         46      24966          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__final_credit
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(127)           on            0         23      24989          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__Abort_signal_in_Transfer
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(120)           on            0         89      24923          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__Abort_signal_in_WITHDRAWAL
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(111)           on            0         95      24917          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__Done_signal_in_WITHDRAWAL
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(98)            on            0        105      24907          0      25012          0           6 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__Transfer_transition_2
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(85)            on            0         89      24923          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__Transfer_transition_1
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(80)            on            0         30      24982          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__Balance_service_transition
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(73)            on            0        161      24851          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__WITHDRAWAL_transition_2
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(68)            on            0         95      24917          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__WITHDRAWAL_transition_1
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(63)            on            0          1      25011          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__OPERATION_CHOICE_transition_5
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(51)            on            0        142      24870          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__OPERATION_CHOICE_transition_4
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(46)            on            0        161      24851          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__OPERATION_CHOICE_transition_3
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(41)            on            0        142      24870          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__OPERATION_CHOICE_transition_2
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(36)            on            0        144      24868          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__OPERATION_CHOICE_transition_1
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(31)            on            0         30      24982          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__checkcard_transition_2
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(25)            on            0        214      24798          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__checkcard_transition_1
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(20)            on            0        264      24748          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__IDLE_Transition_2
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(15)            on            0       2021      22990          0      25012          1           2 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__IDLE_Transition_1
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(10)            on            0        905      24107          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# /atm_tb/assert__states
+#                      Concurrent  atm_tb     Verilog    SVA  assertion.sv(5)             on            0      25012          0          0      25012          0           1 off CCCC   -       off   unlimited off                     
+# 
+# Total Coverage By Instance (filtered view): 98.07%

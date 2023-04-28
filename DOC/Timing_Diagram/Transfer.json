@@ -1,0 +1,40 @@
+{signal: [
+  {name: 'clk', wave: 'HlHlHlHlHlHlHlHlHlHlHl'},
+//ATM Initialize
+ {name: 'ATM_INIT', wave: 'x.1.0.................', data: ['ATM_CAP']},
+ {name: 'ATM_CAPACITY', wave: 'x.3.x.................', data: ['ATM_CAP']}, //buffering ATM CAP
+//States 
+  {name: 'Current_State', wave: 'x.3...4.5.6.7.......8.', data: ['Idle', 'Checkcard', 'lang_choice', 'op_choice','Transfer','op_choice']},
+    {name: 'Next_State', wave: 'x.3.4.5.6.7.......8...', data: ['Idle', 'Checkcard', 'lang_choice', 'op_choice','Transfer','op_choice']},
+//User Inputs 
+    {name: 'op_choice', wave: 'x.........3.........x.', data: ['Transfer','Withdrawal', 'Deposite', 'Balance_ser']},
+  {name: 'Insert', wave: '0...1.0...............'},
+  {name: 'Input_card_pin', wave: 'x.3...................', data: ['card1']},
+{name: 'input_password', wave: 'x.....4.x.............', data: ['in_pass1']},
+{name: 'Lang_choice', wave: 'x.......3.x...........', data: ['arabic(0)','English(1)']}, //Watch_Dog_timer
+{name: 'Transfer_VAl', wave: 'x...........7....x....', data: ['val1']},
+{name: 'Transfer_cardpin', wave: 'x...........7....x....', data: ['transfer_Cardpin']},
+//For withdrawal
+/*
+{name: 'Withdrawal_VAl', wave: 'x...........7.x...', data: ['val1']},
+{name: 'Final_Credit', wave: 'x.............7...', data: ['avail_credit-val1']},
+{name: 'ATM_CAP_BUFF', wave: 'x...3.........7...', data: ['ATM_CAP','ATM_CAP-val1']},
+{name: 'Final_Up_limit', wave: 'x.............7...', data: ['Up_limit-val1']},*/
+
+//For Transfer
+{name: 'Final_Credit', wave: 'x.............7.......', data: ['avail_credit-val1']},
+{name: 'ATM_CAP_BUFF', wave: 'x...3.................', data: ['ATM_CAP','ATM_CAP-val1']},
+{name: 'Final_Up_limit', wave: 'x.............7.......', data: ['Up_limit-val1']},
+
+//ROm outputs 
+{name: 'ref_password', wave: 'x.4...................', data: ['password1']},
+{name: 'valid', wave: 'x.5...................', data: ['valid','Not_valid']},
+//RAM In/OUT 
+{name: 'Transfer_EN', wave: 'x...........0...1...0.', data: ['avail_cred']}, //default = 0 
+{name: 'wr_en', wave: 'x...........0.1.0.1.0.', data: ['password1']},
+{name: 'Available_Credit', wave: 'x...........7...7...7...', data: ['avail_cred','Transfer_card_credit','avail_cred-val1']},
+{name: 'up_limit', wave: 'x...........7...7...7...', data: ['up_limit','Transfer_up_limit','up_limit-val1']},
+//Major Outputs 
+{name: 'Done', wave: 'x.................1.0.', data: ['valid','Not_valid']},
+
+]}

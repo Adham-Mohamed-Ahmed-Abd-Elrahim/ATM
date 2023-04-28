@@ -1,0 +1,214 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Work Zone/ACADMIC/ECEE/Fourth Year/Second Term/Projects/EDA/1st Project/RTL
+vatm
+Z1 2{.\ATM.sv}
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 DXx4 work 5 param 0 22 jMKb;Y[m=oQ7WQIK4:Vhi0
+DXx4 work 11 ATM_sv_unit 0 22 ac5QK4SG?jYdORZ3P6F_m2
+Z4 !s110 1681737090
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 kde6HZQHa^dAH_[ll59S`3
+IfXhebjlQ<3cWjz;0c<bYN2
+!s105 ATM_sv_unit
+S1
+R0
+Z6 w1681737072
+Z7 8.\ATM.sv
+Z8 F.\ATM.sv
+!i122 5
+L0 2 411
+Z9 OL;L;2023.1;77
+31
+Z10 !s108 1681737090.000000
+!s107 .\ATM.sv|
+Z11 !s90 .\ATM.sv|
+!i113 0
+Z12 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 tCvgOpt 0
+XATM_sv_unit
+R1
+R2
+R3
+R4
+Vac5QK4SG?jYdORZ3P6F_m2
+r1
+!s85 0
+!i10b 1
+!s100 O2<=n1agP8z5hgf8BZZKk1
+Iac5QK4SG?jYdORZ3P6F_m2
+!i103 1
+S1
+R0
+R6
+R7
+R8
+!i122 5
+Z14 L0 1 0
+R9
+31
+R10
+Z15 !s107 .\ATM.sv|
+R11
+!i113 0
+R12
+R13
+n@a@t@m_sv_unit
+vatm_top
+R2
+Z16 DXx4 work 5 param 0 22 P3N[jne:ENW@80XN3jK_I1
+DXx4 work 21 atm_topmodule_sv_unit 0 22 l<5o?XF=]o:OWlhEgSJCh1
+Z17 !s110 1681587947
+R5
+r1
+!s85 0
+!i10b 1
+!s100 Rf9hH_B]iZahaV;[RJU`B3
+Ib2Wh2mH6UndShIU4Y_REm1
+!s105 atm_topmodule_sv_unit
+S1
+R0
+Z18 w1681510422
+Z19 8atm_topmodule.sv
+Z20 Fatm_topmodule.sv
+!i122 0
+L0 2 142
+R9
+31
+Z21 !s108 1681587946.000000
+Z22 !s107 vsim.wlf|transcript|single_port_ram.v|rom.v|param_pkg.sv|clk_divider.sv|card_handling.v|card_handling.rar|atm_topmodule.sv|ATM.sv|
+Z23 !s90 ATM.sv|atm_topmodule.sv|card_handling.rar|card_handling.v|clk_divider.sv|param_pkg.sv|rom.v|single_port_ram.v|transcript|vsim.wlf|
+!i113 0
+R12
+R13
+Xatm_topmodule_sv_unit
+R2
+R16
+R17
+Vl<5o?XF=]o:OWlhEgSJCh1
+r1
+!s85 0
+!i10b 1
+!s100 7bmJGEaQFZf@[:2YL1C@D2
+Il<5o?XF=]o:OWlhEgSJCh1
+!i103 1
+S1
+R0
+R18
+R19
+R20
+!i122 0
+R14
+R9
+31
+R21
+R22
+R23
+!i113 0
+R12
+R13
+vclock_divider
+R2
+Z24 !s110 1681737076
+!i10b 1
+!s100 amUR3LAQ7X?LkVn^J^ZQ]0
+I;Md0Hc2^ACzE`O_kXT<<X1
+!s105 ATM_sv_bak_unit
+S1
+R0
+w1681484348
+8clk_divider.sv
+Fclk_divider.sv
+!i122 2
+L0 1 20
+R5
+R9
+r1
+!s85 0
+31
+Z25 !s108 1681737076.000000
+Z26 !s107 vsim.wlf|transcript|single_port_ram.v|rom.v|param_pkg.sv|clk_divider.sv|card_handling.v|card_handling.rar|atm_topmodule.sv|ATM.sv.bak|ATM.sv|
+Z27 !s90 ATM.sv|ATM.sv.bak|atm_topmodule.sv|card_handling.rar|card_handling.v|clk_divider.sv|param_pkg.sv|rom.v|single_port_ram.v|transcript|vsim.wlf|
+!i113 0
+R12
+R13
+Xparam
+2{.\param_pkg.sv}
+R2
+!s110 1681737082
+!i10b 1
+!s100 S[<9N[fLD9OQ@nKFlmoXS0
+IjMKb;Y[m=oQ7WQIK4:Vhi0
+S1
+R0
+w1681596129
+8.\param_pkg.sv
+F.\param_pkg.sv
+!i122 3
+R14
+VjMKb;Y[m=oQ7WQIK4:Vhi0
+R9
+r1
+!s85 0
+31
+!s108 1681737082.000000
+!s107 .\param_pkg.sv|
+!s90 .\param_pkg.sv|
+!i113 0
+R12
+R13
+vrom
+R24
+!i10b 1
+!s100 @g5GR^FWVK23QoTz<A^Z90
+IGF`Nl04mePfi6O`1BVR7]0
+R0
+w1681508688
+8rom.v
+From.v
+!i122 2
+L0 1 61
+R5
+R9
+r1
+!s85 0
+31
+R25
+R26
+R27
+!i113 0
+R12
+R13
+vsingle_port_ram
+R24
+!i10b 1
+!s100 713L@CTz?G4R4iOH8:iLQ2
+IWZm:V5I]0>`nQ5[E1KkYh1
+R0
+w1681591358
+8single_port_ram.v
+Fsingle_port_ram.v
+!i122 2
+L0 1 36
+R5
+R9
+r1
+!s85 0
+31
+R25
+R26
+R27
+!i113 0
+R12
+R13
